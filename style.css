@@ -35,9 +35,7 @@ body{
     padding: 20px;
     background: #fff;    
 }
-.card .content .img{        
-    
-}
+
 .card .content .img img{
     position:relative;
     width:150px;    
@@ -71,19 +69,18 @@ body{
     margin-top: 6px;
 }
 .links{
-    z-index: 90;
-    position:absolute;
     width:35px;
     display:flex;
-    flex-direction: column;
+    width: 100%;margin-top: 15px;
+    justify-content: center;
     align-items: center;
     gap:20px;
     background:rgba(255,255,255,0.5);
     box-shadow: 2px 3px 5px rgba(73, 69,52, 0.4);
-    padding:20px;
+    padding:5px;
     right:10px;
     top: 15px;
-    transition: .5s;
+  
 }
 .card:hover .links{
     right:-50px;
@@ -93,14 +90,13 @@ body{
 .links a{
     font-size:20px;
     color:#646069;
-    /* color:darkgray; */
 }
 .links a:nth-child(1):hover{
     color: #9d0df0;
     
 }
 .links a:nth-child(2):hover{
-    color: #bc32d8;
+    color: #1a80f3;
 }
 .links a:nth-child(3):hover{
     color: #1C93E4;
