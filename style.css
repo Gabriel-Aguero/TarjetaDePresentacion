@@ -69,9 +69,11 @@ body{
     margin-top: 6px;
 }
 .links{
-    width:35px;
+    height:45px;
     display:flex;
-    width: 100%;margin-top: 15px;
+    width: 100%;
+    margin-top: 15px;
+    border-radius:10px;
     justify-content: center;
     align-items: center;
     gap:20px;
@@ -80,20 +82,12 @@ body{
     padding:5px;
     right:10px;
     top: 15px;
+    cursor: pointer;
   
 }
-.card:hover .links{
-    right:-50px;
-    border-radius:0 10px 10px 0;
-}
 
-.links a{
-    font-size:20px;
-    color:#646069;
-}
 .links a:nth-child(1):hover{
-    color: #9d0df0;
-    
+    color: #0de1f0;        
 }
 .links a:nth-child(2):hover{
     color: #1a80f3;
